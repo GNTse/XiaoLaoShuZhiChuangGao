@@ -43,4 +43,4 @@ Python + PySide6（Qt）。打包用 PyInstaller，安装包用 Inno Setup。
 
 ## 许可
 
-© GNTse8 · 2026
+© 霹雳炫酷小老鼠（广告位招租） · 2026
