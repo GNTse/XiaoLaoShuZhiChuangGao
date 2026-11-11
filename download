@@ -1,0 +1,38 @@
+# 备份文件
+*.bak
+index.html.bak
+
+# 编辑器
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# Python（源码不放在这个仓库时可保留）
+__pycache__/
+*.pyc
+
+# 打包产物（放到 Releases，不要进仓库）
+dist/
+build/
+build_src/
+installer_output/
+*.spec
+
+# 重要：明文源文件，绝对不要上传！
+# 上传了就等于没加密（别人直接看这个文件就能看到全部内容）
+index_plain.html
+index.html.bak
+SetPassword.ps1
+SetPassword.bat
+encrypt.py
+icons_b64.py
+一键加密.bat
+一键加密.command
+怎么改官网.txt
+_urls.txt
+
+# 明文源文件的备份
+*.plain.html
